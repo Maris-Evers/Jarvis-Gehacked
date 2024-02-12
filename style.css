@@ -1,0 +1,173 @@
+body {
+    margin: 0px;
+}
+
+
+.navbar {
+    background-color: #000463;
+    display: flex;
+    height: 50px;
+    justify-content: space-between;
+    font-family: sans-serif;
+    box-shadow: 0px 1px 3px #919191;
+}
+
+.navbar div {
+    display: flex;
+    color: white;
+    font-size: 14px;
+}
+
+.logo img {
+    height: 40px;
+    padding: 3px;
+}
+
+.middleheader {
+    display: flex;
+    align-items: center;
+}
+
+.middleheader img {
+    display: flex;
+    height: 25px;
+    padding: 3px;
+    margin: 5px;
+}
+
+.feedback {
+    background-color: white;
+    border-radius: 7px;
+    height: 40px;
+    padding-right: 5px; 
+    margin-left: 4px;
+}
+
+.feedback p {
+    color: #57BE8E;
+}
+
+.lastpart {
+    display: flex;
+    padding: 3px;
+    justify-content: space-between;
+    width: 360px;
+}
+
+.lastpart img {
+    height: 40px;
+}
+
+.balk {
+    display: block;
+    background-color: #2396A4;
+    width: 6px;
+    border-radius: 5px;
+    margin-right: 52px;
+}
+
+.xpbar {
+    background-color: #86DAE4;
+    width: 200px;
+    height: 30px;
+    margin-top: 7px;
+    border-radius: 5px;
+    font-family: sans-serif;
+    display: flex;
+}
+
+.xpbar p {
+    margin-top: 7.5px;
+    text-align: center;
+}
+
+.credits img {
+    height: 30px;
+    width: 30px;
+    margin-top: 7px;
+}
+
+.profile img {
+    padding: 5px;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.meer2 img {
+    width: 20px;
+    height: 20px;
+    padding-top: 10px;
+    padding-right: 3px;
+}
+
+
+
+.content {
+    font-family: sans-serif;
+}
+
+.overzicht {
+    background-color: white;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+table {
+    border-style: outset;
+    border-color: rgb(238, 236, 236);
+    height: 200px;
+    margin: 10px;
+    margin-top: -10px;
+}
+
+.whit {
+    background-color: white;
+    padding: 15px;
+    margin: 3px;
+}
+
+.groen {
+    background-color: #57BE8E;
+    color: white;
+    padding: 7px;
+    border-radius: 5px;
+    box-shadow: 0px 1px 3px #919191;
+    border-top: 1px solid rgb(204, 204, 204);
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 3px;
+}
+
+th, td {
+    border-bottom: 1px solid rgb(223, 223, 223);
+    border-collapse: collapse;
+}
+
+.about {
+    border-style: outset;
+    border-color: rgb(238, 236, 236);
+    width: 280px;
+    padding: 10px;
+    text-align: left;
+    margin-top: 1rem;
+}
+
+.about img {
+    width: 280px;
+}
+
+td {
+    font-size: 15px;
+    padding: 5px;
+    padding-right: 10px;
+}
+
+th {
+    color: #979797;
+    font-size: 13px;
+    text-align: left;
+}
